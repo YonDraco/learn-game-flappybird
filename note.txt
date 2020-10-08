@@ -1,0 +1,22 @@
+// === Background ===
+background1: 0,0,144,256 * 2
+background2: 146,0,144,256
+land: 292,0,168,56
+
+// pipe
+topline: 56,323,26,160 * 2
+bottomline: 84,323,26,160 * 2
+
+line: 400
+
+GAME
+- Scenes - canh
+    + Loading
+    + Pause
+    + playing
+    + GameOver 
+- Sprite - nhan vat
+- UpdateScore()
+- CheckGameOver()
+- Restart() <-> Play()
+- Pause()
